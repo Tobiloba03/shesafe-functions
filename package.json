@@ -1,9 +1,11 @@
 {
-  "name": "shesafe-functions",
+  "name": "vercel-test-app",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "dev": "vercel dev"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
